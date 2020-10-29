@@ -1,3 +1,5 @@
+// clone para reorganizar o a saida
+
 (function(){
 	//elemento canvas e contexto de renderização
 	var cnv = document.querySelector("canvas");
