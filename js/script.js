@@ -40,7 +40,7 @@
 		[1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1],
 		[1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1],
 		[1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1],
-		[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+		[1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
 	];
 	
 	//método de preenchimento do array com os muros do labirinto
@@ -158,18 +158,18 @@
 		ctx.restore();
 	}
     
-    function win() {
-        var positionPlayer = player;
-        var 
+    // function win() {
+    //     var positionPlayer = player;
+    //     var 
 
-        if (maze.length[20][2] != gameOver) {
-            return true;
+    //     if (maze.length[20][2] != gameOver) {
+    //         return true;
             
-        } else{
-            return false;
-        }
+    //     } else{
+    //         return false;
+    //     }
         
-    }
+    // }
 
 	function loop(){
 		update();
